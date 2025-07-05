@@ -1,0 +1,38 @@
+{
+    "name": "drr",
+    "queues": [
+        {
+            "no": 1,
+            "MaxPackets": 3000,
+            "Weight": 10,
+            "DestPort": 9000,
+            "SrcPort": 9001,
+            "protocol": "",
+            "mask": "",
+            "DestIp": "",
+            "SourceIp": ""
+        },
+        {
+            "no": 2,
+            "MaxPackets": 3000,
+            "Weight": 20,
+            "DestPort": 10000,
+            "SrcPort": 10001,
+            "protocol": "",
+            "mask": "",
+            "DestIp": "",
+            "SourceIp": ""
+        },
+        {
+            "no": 3,
+            "MaxPackets": 3000,
+            "Weight": 30,
+            "DestPort": 11000,
+            "SrcPort": 11001,
+            "protocol": "",
+            "mask": "",
+            "DestIp": "",
+            "SourceIp": ""
+        }
+    ]
+}

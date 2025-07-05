@@ -1,0 +1,29 @@
+{
+    "name":"spq",
+    "queues": [
+        {
+            "no": 1,
+            "Default": true,
+            "MaxPackets": 3000,
+            "Priority": 0,
+            "DestPort": 10000,
+            "SrcPort": 9000,
+            "protocol": "",
+            "mask": "",
+            "DestIp": "",
+            "SourceIp": ""
+        },
+        {
+            "no": 2,
+            "Default": false,
+            "MaxPackets": 12000,
+            "Priority": 1,
+            "DestPort": 10001,
+            "SrcPort": 9001,
+            "protocol": "",
+            "mask": "",
+            "DestIp": "",
+            "SourceIp": ""
+        }
+    ]
+}
